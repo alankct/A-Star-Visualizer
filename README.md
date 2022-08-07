@@ -1,16 +1,16 @@
 # Visualizing A* Search Algorithm
 
 Pathfinding algorithms seek to find the shortest path between points A and B. 
-This program visualizes the **A* pathfinding algorithm** in action, into a 2D grid, where movements
+This program visualizes the **A-Star pathfinding algorithm** in action, into a 2D grid, where movements
 from one node to another (up, down, left or right) have a _cost_ of 1.
 
-A* Search is arguably the best pathfinding algorithm; it uses heuristics to guarantee the shortest
+A-Star Search is arguably the best pathfinding algorithm; it uses heuristics to guarantee the shortest
 path much faster than Dijkstra's Algorithm.
 
 At each iteration of its main loop, A* figures out which of its paths to extend. It does so based
 on the cost of a path and the estimated cost required to extend this path all the way to the goal. 
 
-**Specifically, A* selects the path that minimizes f(n)=g(n)+h(n)**
+**Specifically, A-Star selects the path that minimizes f(n)=g(n)+h(n)**
 
 ... where **n** is the next node on the path, **g(n)** is the cost of the path from the start node to n, 
 and **h(n)** is a heuristic function that estimates the cost of the direct path from n to the goal.
