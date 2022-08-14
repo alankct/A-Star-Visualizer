@@ -1,12 +1,10 @@
 from re import T
 import pygame
-import math
 from queue import PriorityQueue
 
 # Configures the display surface
 WIDTH = 800
 DISPLAY = pygame.display.set_mode((WIDTH, WIDTH))
-pygame.display.set_caption("Pathfinding Game")
 
 RED = (250,128,114)
 GREEN = (0, 255, 0)
@@ -21,7 +19,7 @@ WHITE = (255,250,250)
 
 """
 The Node class represents the individual squares in the display map.
-These are initialized in the color white, storing variables such as its position, width,
+A Node is initialized in the color white, storing variables such as its position, width,
 color (which determines its state), and a list of its adjacent neighbors.
 """
 class Node:
@@ -98,6 +96,7 @@ class Node:
 	def __lt__(self, other):
 		return False
 
+
 """
 The H-score returns an estimate of the distance from p1 to p2.
 The 'Manhattan distance' is the sum of the absolute differences between the two vectors.
@@ -110,6 +109,7 @@ def h(p1, p2):
 	x1, y1 = p1
 	x2, y2 = p2
 	return abs(x1 - x2) + abs(y1 - y2)
+
 
 """
 Draws the optimal path (once found) on the game display.
@@ -277,16 +277,17 @@ def get_clicked_pos(pos, rows, display_width):
 	return row, col
 
 
-def main(display, width):
+def main(display):
 	ROWS = 80
-	grid = create_grid(ROWS, width)
+	grid = create_grid(ROWS, WIDTH)
+	pygame.display.set_caption("Pathfinding Game")
 
 	start = None
 	end = None
 
 	run = True
 	while run:
-		draw(display, grid, ROWS, width)
+		draw(display, grid, ROWS, WIDTH)
 		for event in pygame.event.get():
 			# If player exits the program, this deactivates pygame library, and ends while loop
 			if event.type == pygame.QUIT:
@@ -296,7 +297,7 @@ def main(display, width):
 			if pygame.mouse.get_pressed()[0]:
 				# Returns the x and y position of the mouse cursor relative to the game display.
 				pos = pygame.mouse.get_pos()
-				row, col = get_clicked_pos(pos, ROWS, width)
+				row, col = get_clicked_pos(pos, ROWS, WIDTH)
 				node = grid[row][col]
 				
 				# If start does not exist, also checks start is not the same as end
@@ -316,7 +317,7 @@ def main(display, width):
 			# If player right-clicks:
 			elif pygame.mouse.get_pressed()[2]:
 				pos = pygame.mouse.get_pos()
-				row, col = get_clicked_pos(pos, ROWS, width)
+				row, col = get_clicked_pos(pos, ROWS, WIDTH)
 				node = grid[row][col]
 				# Clicked node is reset to be white
 				node.reset()
@@ -335,15 +336,15 @@ def main(display, width):
 
 					# Runs the A* Search Algorithm
 					pygame.display.set_caption("A* Search Algorithm")
-					astar_search(lambda: draw(display, grid, ROWS, width), grid, start, end)
+					astar_search(lambda: draw(display, grid, ROWS, WIDTH), grid, start, end)
 					pygame.display.set_caption("Click R to reset the display")
 
 				# Resets the board if player hits the "r" key after the algorithm is finished
 				if event.key == pygame.K_r:
 					start = None
 					end = None
-					grid = create_grid(ROWS, width)
+					grid = create_grid(ROWS, WIDTH)
 
 	pygame.quit()
 
-main(DISPLAY, WIDTH)
+main(DISPLAY)
