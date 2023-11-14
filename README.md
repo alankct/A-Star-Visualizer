@@ -10,14 +10,13 @@
     <p style="float: left;">
       <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 28 12 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/321a8e7f-3498-496b-b04e-442d72262ad6">
       <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 28 49 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/05866a96-1f84-4e1c-a14b-79b0e5e355c9">
+      <h4>
+         To play: Place your obstacles (3rd image), and press space to visualize the A* algorithm in action (4th image) 
+      </h4>
       <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 37 36 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/478de2e6-e817-4d40-b63b-9776d330664e">
       <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 38 47 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/cdf13b28-1c2c-4def-aa99-b30ae49147da">
     </p>
 </body>
-
-<h4>
-   How to play: Place your obstacles/maze (3rd image), and press space to visualize the A* algorithm in action (4th image) 
-</h4>
 
 Pathfinding algorithms seek to find the shortest path between points A and B. 
 This program visualizes the **A-Star pathfinding algorithm** in action, into a 2D grid, where movements
