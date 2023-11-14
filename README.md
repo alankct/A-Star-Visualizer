@@ -4,10 +4,10 @@
 
 <body>
     <p style="float: left;">
-      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 28 12 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/321a8e7f-3498-496b-b04e-442d72262ad6">
-      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 28 49 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/05866a96-1f84-4e1c-a14b-79b0e5e355c9">
-      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 37 36 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/478de2e6-e817-4d40-b63b-9776d330664e">
-      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 38 47 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/cdf13b28-1c2c-4def-aa99-b30ae49147da">
+      <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 28 12 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/321a8e7f-3498-496b-b04e-442d72262ad6">
+      <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 28 49 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/05866a96-1f84-4e1c-a14b-79b0e5e355c9">
+      <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 37 36 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/478de2e6-e817-4d40-b63b-9776d330664e">
+      <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 38 47 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/cdf13b28-1c2c-4def-aa99-b30ae49147da">
     </p>
 </body>
 
