@@ -1,5 +1,19 @@
 # Visualizing A* Search Algorithm
 
+> This project is an interactive visualization of A* Search (I got really into Search algorithms in the summer)
+
+<body>
+    <p style="float: left;">
+      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 28 12 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/321a8e7f-3498-496b-b04e-442d72262ad6">
+      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 28 49 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/05866a96-1f84-4e1c-a14b-79b0e5e355c9">
+      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 37 36 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/478de2e6-e817-4d40-b63b-9776d330664e">
+      <img width="248" height="248" alt="Screenshot 2023-11-14 at 12 38 47 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/cdf13b28-1c2c-4def-aa99-b30ae49147da">
+    </p>
+</body>
+
+> Given a grid (1), plot a start and end point (2), place your obstacles (2), and press space to visualize the A* algorithm in action (4)
+
+
 Pathfinding algorithms seek to find the shortest path between points A and B. 
 This program visualizes the **A-Star pathfinding algorithm** in action, into a 2D grid, where movements
 from one node to another (up, down, left or right) have a _cost_ of 1.
