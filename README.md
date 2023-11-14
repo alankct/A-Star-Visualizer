@@ -2,6 +2,10 @@
 
 > This project is an interactive visualization of A* Search (I got really into Search algorithms in the summer)
 
+<h4>
+   How to start: Given a grid (1st image), plot a start and end point (2nd image)
+</h4>
+
 <body>
     <p style="float: left;">
       <img width="396" height="396" alt="Screenshot 2023-11-14 at 12 28 12 PM" src="https://github.com/alankct/A-Star-Visualizer/assets/86837040/321a8e7f-3498-496b-b04e-442d72262ad6">
@@ -11,8 +15,9 @@
     </p>
 </body>
 
-> Given a grid (1), plot a start and end point (2), place your obstacles (2), and press space to visualize the A* algorithm in action (4)
-
+<h4>
+   How to play: Place your obstacles/maze (3rd image), and press space to visualize the A* algorithm in action (4th image) 
+</h4>
 
 Pathfinding algorithms seek to find the shortest path between points A and B. 
 This program visualizes the **A-Star pathfinding algorithm** in action, into a 2D grid, where movements
