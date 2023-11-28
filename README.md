@@ -1,6 +1,6 @@
 # Visualizing A* Search Algorithm
 
-> This project is an interactive visualization of A* Search (I got really into Search algorithms in the summer)
+> Visualizing A* Search in action (I got really into Search Algorithms in the summer)
 
 <h4>
    How to start: Given a grid (1st image), plot a start and end point (2nd image)
